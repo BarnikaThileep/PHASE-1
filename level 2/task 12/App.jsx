@@ -9,3 +9,4 @@ const WelcomeMessage = ({ isLoggedIn }) => {
     </div>
   );
 };
+export default WelcomeMessage;
