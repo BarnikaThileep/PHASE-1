@@ -1,0 +1,10 @@
+div{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+  margin: 145px;
+}
+p{
+  justify-content: center;
+  margin:105px;
+  color: blue;
+}
