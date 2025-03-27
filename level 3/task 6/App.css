@@ -1,0 +1,43 @@
+.container {
+  max-width: 400px;
+  margin: 510px;
+  margin-top: 20px;
+  padding: 20px;
+  background: rgb(191, 153, 214);
+  box-shadow: 0 0 20px rgba(188, 125, 214, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ba6161;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+p {
+  color: red;
+}
+body {
+  background: linear-gradient(to right, #dce37d, #a0e7da);
+}
+
+
