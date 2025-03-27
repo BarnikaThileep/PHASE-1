@@ -1,0 +1,25 @@
+.container {
+  width: 300px;
+  margin: 550px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color:burlywood;
+
+}
+
+h2 {
+  color: #333;
+}
+
+.item-list {
+  list-style: none;
+  padding: 0;
+}
+
+.list-item {
+  background: #c1d7ed;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
