@@ -1,0 +1,37 @@
+.toggle-box {
+  background: rgb(186, 127, 127);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.toggle-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  background-color: #3b82f6;
+}
+
+.toggle-btn:hover {
+  background-color: #2563eb;
+}
+
+.content {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #333;
+}
+
+
+index.css
+
+
+body{
+  text-align: center;
+  margin: 25%;
+  background: linear-gradient(rgb(52, 43, 32),rgb(72, 95, 81));
+  background-repeat: no-repeat;
+}
