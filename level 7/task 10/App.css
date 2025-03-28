@@ -1,0 +1,18 @@
+
+.geo-container {
+  width: 300px;
+  margin: 300px auto;
+  padding: 15px;
+  text-align: center;
+  background-color: #d88fce;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+body{
+  background-color: paleturquoise;
+}
