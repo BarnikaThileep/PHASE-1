@@ -1,0 +1,26 @@
+.input-container {
+  text-align: center;
+  margin-top: 400px;
+}
+body{
+  background: linear-gradient(to right, #8697aa, #afb081);
+}
+
+.input-field {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  outline: none;
+}
+
+.input-field:focus {
+  border-color: #0056b3;
+}
+
+.input-value {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
