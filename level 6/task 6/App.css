@@ -1,0 +1,41 @@
+.app-container {
+  text-align: center;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.toggle-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.toggle-button:hover {
+  background-color: #0056b3;
+}
+
+.timer {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #bf4747;
+  padding: 10px;
+  border: 2px solid #007bff;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #f0f8ff;
+}
+
+
+index.css
+body{
+  text-align: center;
+  margin: 25%;
+  background: linear-gradient(rgb(224, 225, 144),rgb(224, 225, 144));
+  background-repeat: no-repeat;
+}
