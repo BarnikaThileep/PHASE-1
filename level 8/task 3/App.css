@@ -1,0 +1,39 @@
+.container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 300px;
+}
+
+.loading {
+  font-size: 18px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.error {
+  font-size: 18px;
+  font-weight: bold;
+  color: #dc3545;
+}
+
+.user-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.user-item {
+  font-size: 18px;
+  margin: 10px 0;
+  background-color: #7da6ce;
+  padding: 10px;
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ccc;
+}
+body{
+  background-color: lightblue;
+}
