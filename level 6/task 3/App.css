@@ -1,0 +1,28 @@
+.container {
+  padding: 1rem;
+  max-width: 400px;
+  margin: auto;
+}
+
+.input-field {
+  border: 1px solid #ccc;
+  padding: 8px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.output-text {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+
+INDEX.CSS
+body{
+  text-align: center;
+  margin: 25%;
+  background: linear-gradient(rgb(204, 213, 103),rgb(77, 172, 114));
+  background-repeat: no-repeat;
+}
+++++
