@@ -1,0 +1,35 @@
+.container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+  background: linear-gradient(135deg, #87db78, #6da2d7);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 150px rgba(126, 216, 195, 0.1);
+  color: white;
+  max-width: 400px;
+  margin: 220px auto;
+}
+
+
+.loading {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.data {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+body{
+  background: linear-gradient(160deg, #87db78, #6da2d7);
+  margin: 300px;
+}
