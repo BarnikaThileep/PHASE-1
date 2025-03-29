@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "67e0deb057c4c4dcea76a86a"
+  },
+  "name": "Bob Smith",
+  "age": 15,
+  "grade": "10th",
+  "subjects": [
+    "History",
+    "Math",
+    "Physics"
+  ],
+  "address": {
+    "street": "456 Oak Ave",
+    "city": "Los Angeles",
+    "state": "CA"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e0deb057c4c4dcea76a86b"
+  },
+  "name": "Charlie Davis",
+  "age": 13,
+  "grade": "8th",
+  "subjects": [
+    "English",
+    "Art",
+    "Biology"
+  ],
+  "address": {
+    "street": "789 Pine Rd",
+    "city": "Chicago",
+    "state": "IL"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e0deb057c4c4dcea76a86c"
+  },
+  "name": "Diana Lopez",
+  "age": 16,
+  "grade": "11th",
+  "subjects": [
+    "Chemistry",
+    "Math",
+    "Music"
+  ],
+  "address": {
+    "street": "101 Elm St",
+    "city": "Houston",
+    "state": "TX"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e0deb057c4c4dcea76a86d"
+  },
+  "name": "Ethan Brown",
+  "age": 17,
+  "grade": "12th",
+  "subjects": [
+    "Physics",
+    "Computer Science",
+    "Economics"
+  ],
+  "address": {
+    "street": "202 Maple Ave",
+    "city": "San Francisco",
+    "state": "CA"
+  }
+}]
