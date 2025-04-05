@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Query</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Search Query</h2>
+        <input type="text" id="query" placeholder="Enter search term">
+        <input type="number" id="limit" placeholder="Enter limit (default 5)">
+        <button onclick="fetchSearchResults()">Search</button>
+        <p id="output"></p>
+    </div>
+
+    <script>
+        function fetchSearchResults() {
+            const query = document.getElementById('query').value || "";
+            const limit = document.getElementById('limit').value || 5;
+
+            fetch(`/search?q=${query}&limit=${limit}`)
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('output').textContent = data.message;
+                })
+                .catch(error => console.error('Error:', error));
+        }
+    </script>
+</body>
+</html>
